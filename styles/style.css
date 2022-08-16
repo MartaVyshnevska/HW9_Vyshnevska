@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-family: 'Roboto Condensed', "Roboto", sans-serif ;
+}
+
+.layer {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 50px;
+    overflow: visible;
+}
+
+.form-heading {
+    width: 684px;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    color: #3D3D3D;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.input_box {
+    display: flex;
+}
+
+.input {
+    width: 335px;
+    border: none;
+    border-bottom: 1px solid #3D3D3D;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #878787;
+    margin-bottom: 40px;
+}
+
+.input:first-child {
+    margin-right: 30px;
+}
+
+.button_box {
+    display: flex;
+}
+
+.button {
+    padding: 22px 57px;
+    background-color: #393246;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 0;
+    margin-right: 34px;
+}
+
+.button_text {
+    margin: 0;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.button::after {
+    content: url(../images/akar-icons_arrow-up-right.svg);
+}
+
+.text {
+    display: inline-block;
+    width: 309px;
+    font-family: Roboto; 
+    font-size: 13px; 
+    line-height: 15px;
+    color: #777777;
+}
+
+a {
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 15px;
+    color: #777777;
+}
+
+.button_close {
+    background-image: url(../images/icon_close.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -35px;
+    right: 0;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
